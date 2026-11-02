@@ -1,7 +1,14 @@
 # L62 – Notice Board CLI
 
 **Student:** RAVI RAM | **Roll:** E38 | **Division:** H | **Enrollment:** 24004501210350
+  ## Project Guide
+This project was completed under the guidance of
+**Dr. Anjum Y. Mansuri**, Assistant Professor, Computer Applications,
+LJ Institute of Computer Applications, LJ University, Ahmedabad.
+GitHub: [@anjum-mansuri](https://github.com/anjum-mansuri)
 
+
+Linux students write: OS Linux Lab 260120510 | Project ID: L62
 ## Problem
 Build a terminal notice board where notices can be posted, searched and archived.
 
