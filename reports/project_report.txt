@@ -1,0 +1,86 @@
+# L62 – NOTICE BOARD CLI PROJECT REPORT
+
+**Student Name:** RAVI RAM  
+**Roll Number:** E38  
+**Division:** H  
+**Project Title:** Notice Board CLI Using Bash Shell Scripting  
+**Platform:** Ubuntu Linux / WSL
+
+## 1. Introduction
+
+The Notice Board CLI is a terminal-based application developed using Bash shell scripting. It allows users to manage college notices through a simple command-line interface.
+
+The project demonstrates Linux commands, shell scripting, file handling, searching, sorting, backup operations and task automation.
+
+## 2. Objectives
+
+- To develop a notice management system using Bash.
+- To add and display college notices.
+- To search notices using keywords.
+- To identify HIGH priority notices.
+- To archive notices older than 30 days.
+- To create backups of notice data.
+- To automate archiving using cron.
+
+## 3. Technologies Used
+
+- Operating System: Ubuntu Linux
+- Environment: Windows Subsystem for Linux (WSL)
+- Language: Bash Shell Scripting
+- Commands: grep, sort, head, tar, date, mkdir, chmod
+- Scheduler: Cron
+- Editor: Nano
+
+## 4. Project Structure
+
+- main.sh – Main application and menu.
+- lib/functions.sh – Functions used by the application.
+- data/notices.txt – Stores notice records.
+- data/archive.txt – Stores archived notices.
+- backups/ – Stores backup files.
+- logs/activity.log – Stores activity records.
+- reports/ – Stores project reports and cron output.
+
+## 5. Features
+
+1. Post a new notice with the current date.
+2. Display the latest five notices.
+3. Search notices using keywords.
+4. Display HIGH priority notices.
+5. Archive notices older than 30 days.
+6. View all notice data.
+7. Create compressed backups using tar.
+8. View activity logs.
+
+## 6. Automation Using Cron
+
+A cron job is configured to execute the archive function every Monday at 8:00 AM.
+
+Cron expression:
+
+0 8 * * 1
+
+Command:
+
+cd /home/ravi/linux_project/noticeboard && /home/ravi/linux_project/noticeboard/main.sh --cron
+
+The cron service was checked and confirmed as active. The cron execution log was also verified.
+
+## 7. Testing and Results
+
+The following operations were tested:
+
+- Help command.
+- Backup command.
+- Cron command.
+- Main application menu.
+- Notice management features.
+- Activity logging.
+
+The notice data file contains 25 sample notices and one header row. The backup operation generated a compressed archive successfully.
+
+## 8. Conclusion
+
+The Notice Board CLI project successfully demonstrates the practical use of Bash scripting and Linux commands. It provides a simple way to manage notices, search information, archive old records, create backups and automate repetitive tasks using cron.
+
+This project improved my understanding of Linux file management, shell scripting and task scheduling.

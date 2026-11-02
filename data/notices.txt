@@ -1,0 +1,26 @@
+date|title|priority
+2026-10-20|Mid-sem practical exam schedule|HIGH
+2026-10-22|Sports day registration open|LOW
+2026-10-24|Library closed on Saturday|MEDIUM
+2026-11-02|review|HIGH
+2026-11-02|waghsdgjk|LOW
+2026-11-02|eefsgdjhjkal|MEDIUM
+2026-11-02|dgvvshjakksddhs|HIGH
+2026-11-02|eegsjwuhsudfskujsdkk|LOW
+2026-11-02|ravii|LOW
+2026-11-02|raviiii|LOW
+2026-10-25|Internal assessment submission deadline|HIGH
+2026-10-26|College cultural fest registration|MEDIUM
+2026-10-27|Computer lab maintenance notice|LOW
+2026-10-28|Final project topic submission|HIGH
+2026-10-29|Guest lecture on artificial intelligence|MEDIUM
+2026-10-30|Library book return reminder|LOW
+2026-10-31|Scholarship document verification|HIGH
+2026-11-01|Sports competition schedule|MEDIUM
+2026-11-02|Student ID card distribution|LOW
+2026-10-15|Midterm examination timetable|HIGH
+2026-10-16|Workshop on cybersecurity|MEDIUM
+2026-10-17|College placement registration|HIGH
+2026-10-18|Campus cleanliness drive|LOW
+2026-10-19|Seminar on cloud computing|MEDIUM
+2026-10-21|Fee payment reminder|HIGH
